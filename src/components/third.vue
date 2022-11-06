@@ -63,7 +63,7 @@ export default defineComponent({
                 header: 'Sama Scholl',
                 img:
                     [
-                        { src: '../assets/english1.PNG' },
+                        { src: 'src/assets/english1.PNG' },
                         { src: 'src/assets/english2.PNG' },
                         { src: 'src/assets/english3.PNG' }
                     ]
