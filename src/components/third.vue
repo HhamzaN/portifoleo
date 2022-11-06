@@ -32,9 +32,9 @@ export default defineComponent({
                 header: 'Task Maneger',
                 img:
                     [
-                        { src: 'src/assets/task manager auth.PNG' },
-                        { src: 'src/assets/task1.PNG' },
-                        { src: 'src/assets/task2.PNG' }
+                        { src: '../assets/task manager auth.PNG' },
+                        { src: '../assets/task1.PNG' },
+                        { src: '../assets/task2.PNG' }
                     ]
             }
             ,
@@ -43,9 +43,9 @@ export default defineComponent({
                 header: 'SuperHeroes',
                 img:
                     [
-                        { src: 'src/assets/nj1.PNG' },
-                        { src: 'src/assets/nj2.PNG' },
-                        { src: 'src/assets/nj3.PNG' }
+                        { src: '../assets/nj1.PNG' },
+                        { src: '../assets/nj2.PNG' },
+                        { src: '../assets/nj3.PNG' }
                     ],
             }
             , {
@@ -53,9 +53,9 @@ export default defineComponent({
                 header: 'ERP System',
                 img:
                     [
-                        { src: 'src/assets/erp.jpg' },
-                        { src: 'src/assets/1.png' },
-                        { src: 'src/assets/2.png' },
+                        { src: '../assets/erp.jpg' },
+                        { src: '../assets/1.png' },
+                        { src: '../assets/2.png' },
                     ]
             },
             {
@@ -63,9 +63,9 @@ export default defineComponent({
                 header: 'Sama Scholl',
                 img:
                     [
-                        { src: 'src/assets/english1.PNG' },
-                        { src: 'src/assets/english2.PNG' },
-                        { src: 'src/assets/english3.PNG' }
+                        { src: '../assets/english1.PNG' },
+                        { src: '../assets/english2.PNG' },
+                        { src: '../assets/english3.PNG' }
                     ]
             },
             {
@@ -73,9 +73,9 @@ export default defineComponent({
                 header: 'Student Services',
                 img:
                     [
-                        { src: 'src/assets/Login.PNG' },
-                        { src: 'src/assets/HomeDark.PNG' },
-                        { src: 'src/assets/OrdersDark.PNG' }
+                        { src: '../assets/Login.PNG' },
+                        { src: '../assets/HomeDark.PNG' },
+                        { src: '../assets/OrdersDark.PNG' }
                     ]
             },
 

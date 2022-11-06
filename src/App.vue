@@ -2,7 +2,6 @@
   <div>
     <v-app>
       <v-main class="">
-
         <first />
         <third></third>
         <skill />
@@ -20,7 +19,6 @@ export default defineComponent({
   name: 'App',
   components: {
     first,
-    // second,
     third,
     skill,
   },
