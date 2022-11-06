@@ -1,7 +1,7 @@
 <template>
   <div class="screen" @scroll="scroll">
     <div class="color " id="last" v-if="contain">
-      <v-img src='../assets/hamza.jpg' class="image bg-grey-lighten-2">
+      <v-img src='assets/hamza.jpg' class="image bg-grey-lighten-2" cover>
       </v-img>
       <div class="header">Hi, I'm Hamza</div>
       <div class="disc1">
@@ -83,9 +83,8 @@ a {
   width: 200px;
   height: 200px;
   border-radius: 100%;
-  background-image: url('../assets/hamza.jpg');
-  background-size: 100%;
-
+  background-image: url('assets/hamza.jpg');
+  background-size: cover;
 }
 
 
@@ -98,7 +97,7 @@ a {
 }
 
 .screen {
-  background-image: url('../assets/portfoliobg.png');
+  background-image: url('assets/portfoliobg.png');
   background-size: cover;
   flex-direction: row;
   display: flex;

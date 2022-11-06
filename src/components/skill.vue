@@ -22,55 +22,55 @@ export default defineComponent({
         });
         let skillCard = [
             {
-                header: 'HTML', style: "background-image: url('src/assets/Html-5-01.png');"
+                header: 'HTML', style: "background-image: url('assets/Html-5-01.png');"
                 , value: 90
             },
             {
-                header: 'CSS', style: "background-image: url('src/assets/CSS-3-01.png');"
+                header: 'CSS', style: "background-image: url('assets/CSS-3-01.png');"
                 , value: 65
             },
             {
-                header: 'Javascript', style: "background-image: url('src/assets/Javascript-03.png');"
+                header: 'Javascript', style: "background-image: url('assets/Javascript-03.png');"
                 , value: 70
             },
             {
-                header: 'Vue', style: "background-image: url('src/assets/Vue.png');"
+                header: 'Vue', style: "background-image: url('assets/Vue.png');"
                 , value: 70
             },
 
             {
-                header: 'Vuetify', style: "background-image: url('src/assets/vuetify.png');"
+                header: 'Vuetify', style: "background-image: url('assets/vuetify.png');"
                 , value: 50
             },
             {
-                header: 'Tailwind ', style: "background-image: url('src/assets/telwind.png');"
+                header: 'Tailwind ', style: "background-image: url('assets/telwind.png');"
                 , value: 50
             },
             {
-                header: 'Quasar', style: "background-image: url('src/assets/quasar.png');"
+                header: 'Quasar', style: "background-image: url('assets/quasar.png');"
                 , value: 50
             },
             {
-                header: 'Typescript', style: "background-image: url('src/assets/Typescript.png');"
+                header: 'Typescript', style: "background-image: url('assets/Typescript.png');"
                 , value: 60
             },
             {
-                header: 'Github', style: "background-image: url('src/assets/pngwing.com (2).png');"
+                header: 'Github', style: "background-image: url('assets/pngwing.com (2).png');"
                 , value: 75
             },
             {
-                header: 'GitLab', style: "background-image: url('src/assets/GitLab.png');"
+                header: 'GitLab', style: "background-image: url('assets/GitLab.png');"
                 , value: 75
             },
             {
-                header: 'PHP', style: "background-image: url('src/assets/php.png');"
+                header: 'PHP', style: "background-image: url('assets/php.png');"
                 , value: 20
             },
             {
-                header: 'Laravel', style: "background-image: url('src/assets/Laravel-04.png');"
+                header: 'Laravel', style: "background-image: url('assets/Laravel-04.png');"
                 , value: 20
             }, {
-                header: 'Computer Maintenance', style: "background-image: url('src/assets/computer-logos-6.png');"
+                header: 'Computer Maintenance', style: "background-image: url('assets/computer-logos-6.png');"
                 , value: 50
             },
 
@@ -109,7 +109,7 @@ export default defineComponent({
     background-color: rgb(23, 25, 29);
     height: 45%;
     width: 100%;
-    background-image: url('src/assets/12.jpg');
+    background-image: url('assets/12.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
