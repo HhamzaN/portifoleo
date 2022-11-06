@@ -1,7 +1,6 @@
 <template>
     <div class="all">
-        <div class="header" @click="
-        imageSkill(), headerSkill()" id="skill">Skill</div>
+        <div class="header" id="skill">Skill</div>
         <div class="screen">
             <skillC v-for=" (skill, i) in skillCard" key="i" :array="skill" id="skillImage" />
         </div>
@@ -18,8 +17,8 @@ export default defineComponent({
     },
     setup() {
         window.addEventListener('scroll', (event) => {
-            window.scrollY == 900 ? (headerSkill()) : console.log('no')
-            window.scrollY == 1000 ? (imageSkill()) : console.log('no')
+            window.scrollY == 1200 ? (headerSkill()) : console.log('no')
+            window.scrollY == 1300 ? (imageSkill()) : console.log('no')
         });
         let skillCard = [
             {
@@ -82,7 +81,7 @@ export default defineComponent({
             gsap.fromTo("#skill", { y: -100 }, { y: 0, scale: 3, duration: 2, });
         }
         function imageSkill() {
-            gsap.fromTo("#skillImage", { y: -100 }, { y: 0, duration: 2, });
+            gsap.fromTo("#skillImage", { y: -100 }, { scale: 0.75, y: 0, duration: 3, });
         }
         return {
             skillCard,

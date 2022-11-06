@@ -69,7 +69,6 @@ export default {
     align-items: center;
     text-align: center;
     background-size: cover;
-    margin: 10px;
     flex-direction: row;
     flex-wrap: wrap;
     display: flex;
