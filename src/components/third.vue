@@ -1,6 +1,6 @@
 <template>
     <div class="all">
-        <div class="header" id="work" @click="imageWork(), headerWork()">My Work</div>
+        <div class="header" id="work">My Work</div>
         <div class="screen">
             <card :items="ix[i]" v-for="(item, i) in ix" key="i" id="workImage" class="card"></card>
         </div>
@@ -16,8 +16,8 @@ export default defineComponent({
     },
     setup() {
         window.addEventListener('scroll', (event) => {
-            window.scrollY == 300 ? (headerWork()) : console.log('no')
-            window.scrollY == 400 ? (imageWork()) : console.log('no')
+            window.scrollY == 300 ? (headerWork()) : ''
+            window.scrollY == 400 ? (imageWork()) : ''
         });
         function imageWork() {
             gsap.fromTo("#workImage", { y: -100 }, { y: 0, duration: 2, });
@@ -112,7 +112,7 @@ export default defineComponent({
     background-color: rgb(18, 20, 22);
     height: 1000px;
     width: 100%;
-    background-image: url('assets/11.jpg');
+    background-image: url('../assets/11.jpg');
     background-size: cover;
 }
 

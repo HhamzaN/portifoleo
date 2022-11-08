@@ -17,8 +17,8 @@ export default defineComponent({
     },
     setup() {
         window.addEventListener('scroll', (event) => {
-            window.scrollY == 1200 ? (headerSkill()) : console.log('no')
-            window.scrollY == 1300 ? (imageSkill()) : console.log('no')
+            window.scrollY == 1200 ? (headerSkill()) : ''
+            window.scrollY == 1300 ? (imageSkill()) : ''
         });
         let skillCard = [
             {
@@ -109,7 +109,7 @@ export default defineComponent({
     background-color: rgb(23, 25, 29);
     height: 45%;
     width: 100%;
-    background-image: url('assets/12.jpg');
+    background-image: url('../assets/12.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
